@@ -16,8 +16,8 @@ export default function Home() {
       <div className="academic-content">
       <section className="introduction" aria-label="About me">
         <p>
-          Welcome to my website! I&apos;m a Ph.D. candidate in Economics at the
-          University of Michigan.
+          Welcome to my website! I&apos;m a Ph.D. candidate in Economics at the{" "}
+          <a href="https://lsa.umich.edu/econ">University of Michigan</a>.
         </p>
         <p>I am on the 2026-2027 job market.</p>
         <p>
@@ -112,6 +112,9 @@ export default function Home() {
             </p>
           </details>
         </article>
+      </section>
+      <section className="research-section" aria-labelledby="teaching">
+        <h2 id="teaching">Teaching</h2>
       </section>
       </div>
       </div>
