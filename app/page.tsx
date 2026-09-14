@@ -115,6 +115,30 @@ export default function Home() {
       </section>
       <section className="research-section" aria-labelledby="teaching">
         <h2 id="teaching">Teaching</h2>
+        <p>
+          I have taught economics at the University of Michigan (United States) and
+          Universidad de San Andrés (Argentina).
+        </p>
+        <div className="teaching-entry">
+          <h3>University of Michigan (Graduate Student Instructor)</h3>
+          <ul>
+            <li>Intermediate Microeconomics (ECON 401)</li>
+            <li>Intermediate Macroeconomics (ECON 402)</li>
+            <li>Principles of Microeconomics (ECON 101)</li>
+          </ul>
+        </div>
+        <div className="teaching-entry">
+          <h3>Universidad de San Andrés, Argentina (Teaching Assistant)</h3>
+          <ul>
+            <li>Principles of Microeconomics (ECON 101)</li>
+            <li>Labor Economics</li>
+            <li>Economic Growth</li>
+            <li>Monetary Economics</li>
+            <li>History of the Economic Thought</li>
+            <li>International Monetary Economics</li>
+            <li>Graduation Paper Workshop</li>
+          </ul>
+        </div>
       </section>
       </div>
       </div>
