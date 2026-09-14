@@ -53,7 +53,7 @@ export default function Home() {
         </article>
         <article className="publication">
           <h3>Ideology and Corruption: Policies and People</h3>
-          <p><a href="https://www.dropbox.com/scl/fi/gcen8mc7shlv95rjkowxz/L-pez-Villalba-Ruzzier_Ideology-and-Corruption_country-analysis.pdf?rlkey=5w8ui6lcjp03w6p4re14lg4tg&st=6keueo2k&dl=0">[Latest version]</a></p>
+          <p><a href="https://www.dropbox.com/scl/fi/gcen8mc7shlv95rjkowxz/L-pez-Villalba-Ruzzier_Ideology-and-Corruption_country-analysis.pdf?rlkey=5w8ui6lcjp03w6p4re14lg4tg&st=6keueo2k&dl=0">[Latest version]</a> <em>Submitted</em></p>
           <p className="meta">with <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a>.</p>
           <details className="abstract">
             <summary>Abstract</summary>
