@@ -30,9 +30,10 @@ h1 { margin: 0; font-size: 1.375rem; line-height: 1.4; font-weight: 700; }
 .academic-content { min-width: 0; }
 .introduction { max-width: 660px; margin: 0 auto; }
 .research-section { max-width: 660px; margin: 40px auto 0; }
-.research-section h2 { margin: 0 0 16px; font-size: 1.125rem; line-height: 1.4; font-weight: 700; }
+.research-section h2 { margin: 0 0 16px; font-size: 1.25rem; line-height: 1.4; font-weight: 700; }
 .publication h3 { margin: 0 0 6px; font-size: 1rem; line-height: 1.55; font-weight: 700; }
 .publication p { margin: 0 0 6px; }
+.publication p.meta { font-size: 0.85rem; opacity: 0.75; }
 .publication + .publication { margin-top: 26px; }
 .abstract summary { width: fit-content; color: var(--link); cursor: pointer; }
 .abstract summary:hover { text-decoration: underline; text-underline-offset: 3px; }

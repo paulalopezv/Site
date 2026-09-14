@@ -31,8 +31,8 @@ export default function Home() {
           <h3>Child Support and Labor Supply in a High-Informality Setting</h3>
           <p><a href="https://www.dropbox.com/scl/fi/uw3zq37832szkgqyddrv6/latest.pdf?rlkey=68100p4gv3djhjdtaw86jbsvv&st=mcfdpbjj&dl=0">[Latest version]</a></p>
           <p><em>Job Market Paper</em></p>
-          <p>with <a href="https://www.rosariod.com/">Rosario Didier</a></p>
-          <p>Presented at: MDev 2026 Conference, Workshop on Gender and Household Inequality CAF-WELAC 2025, NTA Annual Conference 2025</p>
+          <p className="meta">with <a href="https://www.rosariod.com/">Rosario Didier</a></p>
+          <p className="meta">Presented at: MDev 2026 Conference, Workshop on Gender and Household Inequality CAF-WELAC 2025, NTA Annual Conference 2025</p>
           <details className="abstract">
             <summary>Abstract</summary>
             <p>
@@ -43,7 +43,7 @@ export default function Home() {
         <article className="publication">
           <h3>The Effects of Coca Cultivation on Peruvian Local Economic Development</h3>
           <p>[Latest version]</p>
-          <p>with <a href="https://jendara.com/">Joaquin Endara Cevallos</a></p>
+          <p className="meta">with <a href="https://jendara.com/">Joaquin Endara Cevallos</a></p>
           <details className="abstract">
             <summary>Abstract</summary>
             <p>
@@ -54,7 +54,7 @@ export default function Home() {
         <article className="publication">
           <h3>Ideology and Corruption: Policies and People</h3>
           <p><a href="https://www.dropbox.com/scl/fi/gcen8mc7shlv95rjkowxz/L-pez-Villalba-Ruzzier_Ideology-and-Corruption_country-analysis.pdf?rlkey=5w8ui6lcjp03w6p4re14lg4tg&st=6keueo2k&dl=0">[Latest version]</a></p>
-          <p>with <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a>.</p>
+          <p className="meta">with <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a>.</p>
           <details className="abstract">
             <summary>Abstract</summary>
             <p>
@@ -83,7 +83,7 @@ export default function Home() {
               The Long-Term Effect of Military Conscription on Personality and Beliefs
             </a>
           </h3>
-          <p>
+          <p className="meta">
             with <a href="https://sites.google.com/udesa.edu.ar/gabrielaertolanavajas/home">Gabriela Ertola Navajas</a>,{" "}
             <a href="https://www.antoniavazquez.com">Antonia Vazquez</a> and{" "}
             <a href="https://sites.google.com/a/udesa.edu.ar/mrossi/">Martín A. Rossi</a>.
@@ -102,7 +102,7 @@ export default function Home() {
               Firm-level productivity in Latin America and the Caribbean
             </a>
           </h3>
-          <p>with <a href="https://idbinvest.org/en/blog/author/lucas-figal-garone">Lucas Figal Garone</a>, <a href="https://idbinvest.org/en/member/alessandro-maffioli">Alessandro Maffioli</a> and <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a>.</p>
+          <p className="meta">with <a href="https://idbinvest.org/en/blog/author/lucas-figal-garone">Lucas Figal Garone</a>, <a href="https://idbinvest.org/en/member/alessandro-maffioli">Alessandro Maffioli</a> and <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a>.</p>
           <p><strong><em>Research in Economics</em></strong>, 74(2), 2020.</p>
           <details className="abstract">
             <summary>Abstract</summary>
