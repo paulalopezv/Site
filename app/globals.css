@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #222222;
+  --link: #287797;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.academic-page {
+  width: min(1000px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 60px 0 100px;
+}
+.page-header { margin-bottom: 60px; text-align: center; }
+h1 { margin: 0; font-size: 1.375rem; line-height: 1.4; font-weight: 700; }
+.profile-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 50px; align-items: start; }
+.profile { text-align: center; }
+.profile-photo { display: block; width: 200px; height: 200px; margin: 0 auto 16px; object-fit: cover; border-radius: 50%; }
+.profile-links { font-size: 0.875rem; line-height: 1.7; }
+.academic-content { min-width: 0; }
+.introduction { max-width: 660px; margin: 0 auto; }
+.research-section { max-width: 660px; margin: 40px auto 0; }
+.research-section h2 { margin: 0 0 16px; font-size: 1.125rem; line-height: 1.4; font-weight: 700; }
+.publication h3 { margin: 0 0 6px; font-size: 1rem; line-height: 1.55; font-weight: 700; }
+.publication p { margin: 0 0 6px; }
+.publication + .publication { margin-top: 26px; }
+.abstract summary { width: fit-content; color: var(--link); cursor: pointer; }
+.abstract summary:hover { text-decoration: underline; text-underline-offset: 3px; }
+.abstract summary:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+.abstract > p { margin-top: 12px; }
+p { margin: 0 0 24px; }
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+@media (max-width: 760px) {
+  .profile-layout { grid-template-columns: 1fr; gap: 32px; }
+  .academic-content { width: 100%; }
+}
+@media (max-width: 600px) {
+  .academic-page { width: calc(100% - 40px); padding-top: 40px; }
+  .page-header { margin-bottom: 40px; }
+}
