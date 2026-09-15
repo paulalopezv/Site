@@ -22,7 +22,7 @@ export default function Home() {
         <p>I am on the 2026-2027 job market.</p>
         <p>
           My research interests are in Labor Economics, Family Economics, and
-          Economic Development, with a particular interest in how institutions
+          Development Economics, with a particular interest in how institutions
           and public policies shape labor supply and household behavior.
         </p>
       </section>
