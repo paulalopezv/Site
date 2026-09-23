@@ -43,7 +43,7 @@ export default function Home() {
         </article>
         <article className="publication">
           <h3>The Effects of Coca Cultivation on Peruvian Local Economic Development</h3>
-          <p>[Latest version]</p>
+          <p><a href="https://www.dropbox.com/scl/fi/moqhjtrkilphv1cv39azo/The-Effects-of-Coca-Cultivation.pdf?rlkey=9folmlihwvr9y388xlmifb0th&st=7wa0kkuc&e=1&dl=0">[Latest version]</a></p>
           <p className="meta">with <a href="https://jendara.com/">Joaquin Endara Cevallos</a></p>
           <details className="abstract">
             <summary>Abstract</summary>
