@@ -19,7 +19,7 @@ export default function Home() {
           Welcome to my website! I&apos;m a Ph.D. candidate in Economics at the{" "}
           <a href="https://lsa.umich.edu/econ">University of Michigan</a>.
         </p>
-        <p>I am on the 2026-2027 job market.</p>
+        <p className="job-market-notice"><strong>I am on the 2026-2027 job market.</strong></p>
         <p>
           My research interests are in Labor Economics, Family Economics, and
           Development Economics, with a particular interest in how institutions

@@ -29,6 +29,7 @@ h1 { margin: 0; font-size: 1.375rem; line-height: 1.4; font-weight: 700; }
 .profile-links { font-size: 0.875rem; line-height: 1.7; }
 .academic-content { min-width: 0; }
 .introduction { max-width: 660px; margin: 0 auto; }
+.job-market-notice { color: #1a3a63; }
 .research-section { max-width: 660px; margin: 40px auto 0; }
 .research-section h2 { margin: 0 0 16px; font-size: 1.25rem; line-height: 1.4; font-weight: 700; text-align: center; }
 .publication h3 { margin: 0 0 6px; font-size: 1rem; line-height: 1.55; font-weight: 700; }
