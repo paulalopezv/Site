@@ -6,9 +6,7 @@ export default function Home() {
       </header>
       <div className="profile-layout">
       <aside className="profile" aria-label="Photo and contact">
-        <div className="profile-photo-frame">
-          <img className="profile-photo" src="/foto.png" alt="Paula Agustina López Villalba" width={264} height={264} />
-        </div>
+        <img className="profile-photo" src="/foto.png" alt="Paula Agustina López Villalba" width={264} height={264} />
         <p className="profile-links">
           <a href="/CV-Lopez.pdf" target="_blank" rel="noopener noreferrer">CV</a>
           {" | "}<strong>Email:</strong>{" "}
