@@ -32,7 +32,7 @@ export default function Home() {
           <h3>Child Support and Labor Supply in a High-Informality Setting</h3>
           <p><a href="https://www.dropbox.com/scl/fi/uw3zq37832szkgqyddrv6/latest.pdf?rlkey=68100p4gv3djhjdtaw86jbsvv&st=mcfdpbjj&dl=0">[Latest version]</a> <em>Job Market Paper</em></p>
           <p className="meta">with <a href="https://www.rosariod.com/">Rosario Didier</a></p>
-          <p className="meta">Presented at: MDev 2026 Conference, Workshop on Gender and Household Inequality CAF-WELAC 2025, NTA Annual Conference 2025</p>
+          <p className="meta">Presented at: LACEA 2026 (scheduled), NEUDC 2026 (scheduled), MDev 2026 Conference, Workshop on Gender and Household Inequality CAF-WELAC 2025, NTA Annual Conference 2025</p>
           <details className="abstract">
             <summary>Abstract</summary>
             <p>
