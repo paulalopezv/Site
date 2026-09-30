@@ -63,18 +63,6 @@ export default function Home() {
           </details>
         </article>
       </section>
-      <section className="research-section" aria-labelledby="work-in-progress">
-        <h2 id="work-in-progress">Work in Progress</h2>
-        <article className="publication">
-          <h3>Household Insurance after Formal Job Loss in a High-Informality Setting</h3>
-          <details className="abstract">
-            <summary>Abstract</summary>
-            <p>
-              This project studies how households adjust to formal job loss in Ecuador by combining longitudinal employment surveys with administrative employer-employee records. The survey data allow me to follow workers and their household members across formal employment, informal employment, unemployment, and nonparticipation, while the administrative records provide detailed information on formal workers and their employers. To address the endogeneity of job separations, I exploit idiosyncratic firm-level employment contractions as an instrument for formal job loss. I examine how the loss of a formal job affects the labor supply of other household members and whether informal employment provides a margin through which households insure against the resulting income shock.
-            </p>
-          </details>
-        </article>
-      </section>
       <section className="research-section" aria-labelledby="publications">
         <h2 id="publications">Publications</h2>
         <article className="publication">
@@ -108,6 +96,18 @@ export default function Home() {
             <summary>Abstract</summary>
             <p>
               While the accumulation of factors of production, both physical and <a href="https://www.sciencedirect.com/topics/economics-econometrics-and-finance/human-capital">human capital</a>, has helped Latin America and the Caribbean (LAC) to narrow the income gap with developed economies, aggregate productivity is still relatively low. Although there are numerous determinants of aggregate productivity, it is largely based on the underlying productivity of all firms in the economy. Using firm-level data from several waves of the World Bank Enterprise Survey and Chile&apos;s National Manufacturing Survey, we explore the <em>‘what’</em> question on productivity dispersion in LAC. We document three stylized facts: (i) there are significant differences in firm productivity within <a href="https://www.sciencedirect.com/topics/economics-econometrics-and-finance/industry">industries</a> – the firm at the 90th percentile of the productivity distribution produces almost seven times as much output (using the same measured inputs) as the 10th percentile firm; (ii) productivity differences persist over time – regressing a firm&apos;s current productivity on its one-year lagged productivity yields an autoregressive coefficient of around 0.9; and (iii) most of the growth in aggregate productivity comes from improvements in the productivity of existing firms.
+            </p>
+          </details>
+        </article>
+      </section>
+      <section className="research-section" aria-labelledby="work-in-progress">
+        <h2 id="work-in-progress">Work in Progress</h2>
+        <article className="publication">
+          <h3>Household Insurance after Formal Job Loss in a High-Informality Setting</h3>
+          <details className="abstract">
+            <summary>Abstract</summary>
+            <p>
+              This project studies how households adjust to formal job loss in Ecuador by combining longitudinal employment surveys with administrative employer-employee records. The survey data allow me to follow workers and their household members across formal employment, informal employment, unemployment, and nonparticipation, while the administrative records provide detailed information on formal workers and their employers. To address the endogeneity of job separations, I exploit idiosyncratic firm-level employment contractions as an instrument for formal job loss. I examine how the loss of a formal job affects the labor supply of other household members and whether informal employment provides a margin through which households insure against the resulting income shock.
             </p>
           </details>
         </article>
