@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <main className="academic-page">
-      <header className="page-header">
-        <h1>Paula Agustina López Villalba</h1>
-      </header>
       <div className="profile-layout">
+      <header className="page-header">
+        <h1>Paula A. López Villalba</h1>
+      </header>
       <aside className="profile" aria-label="Photo and contact">
         <img className="profile-photo" src="/foto.png" alt="Paula Agustina López Villalba" width={240} height={240} />
         <p className="profile-links">

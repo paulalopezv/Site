@@ -21,13 +21,13 @@ body {
   margin: 0 auto;
   padding: 60px 0 100px;
 }
-.page-header { margin-bottom: 60px; text-align: center; }
+.page-header { grid-column: 2; grid-row: 1; width: 100%; max-width: 660px; margin: 0 auto; text-align: center; }
 h1 { margin: 0; font-size: 1.375rem; line-height: 1.4; font-weight: 700; }
-.profile-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 50px; align-items: start; }
-.profile { text-align: center; }
+.profile-layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); column-gap: 50px; row-gap: 60px; align-items: start; }
+.profile { grid-column: 1; grid-row: 2; text-align: center; }
 .profile-photo { display: block; width: 240px; height: 240px; margin: 0 auto 16px; object-fit: cover; object-position: center 15%; border-radius: 50%; }
 .profile-links { font-size: 0.875rem; line-height: 1.7; }
-.academic-content { min-width: 0; }
+.academic-content { grid-column: 2; grid-row: 2; min-width: 0; }
 .introduction { max-width: 660px; margin: 0 auto; }
 .job-market-notice { color: #1a3a63; }
 .research-section { max-width: 660px; margin: 40px auto 0; }
@@ -49,10 +49,10 @@ a { color: var(--link); text-underline-offset: 3px; }
 a:hover { text-decoration: underline; }
 a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
 @media (max-width: 760px) {
-  .profile-layout { grid-template-columns: 1fr; gap: 32px; }
+  .profile-layout { grid-template-columns: 1fr; row-gap: 40px; }
+  .page-header, .profile, .academic-content { grid-column: 1; grid-row: auto; }
   .academic-content { width: 100%; }
 }
 @media (max-width: 600px) {
   .academic-page { width: calc(100% - 40px); padding-top: 40px; }
-  .page-header { margin-bottom: 40px; }
 }
