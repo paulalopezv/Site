@@ -121,6 +121,10 @@ export default function Home() {
         </p>
         <div className="teaching-entry">
           <h3>University of Michigan (Graduate Student Instructor)</h3>
+          <p className="teaching-note">
+            The qualitative feedback from my student evaluations is available{" "}
+            <a href="https://www.dropbox.com/scl/fi/9z5vs13c3n7fmtwj21puj/Teaching-evaluations-LOPEZ.pdf?rlkey=rpqzalfwfkh5jdeihtb1bd46l&st=l8onadfg&dl=0">here</a>.
+          </p>
           <ul>
             <li>Intermediate Microeconomics (ECON 401)</li>
             <li>Intermediate Macroeconomics (ECON 402)</li>
