@@ -23,7 +23,7 @@ export default function Home() {
         <p>
           My research interests are in Labor Economics, Family Economics, and
           Development Economics, with a particular interest in how institutions
-          and public policies shape labor supply and household behavior.
+          and public policies shape labor-market outcomes and household behavior.
         </p>
       </section>
       <section className="research-section" aria-labelledby="working-papers">
