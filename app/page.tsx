@@ -17,7 +17,7 @@ export default function Home() {
       <section className="introduction" aria-label="About me">
         <p>
           Welcome to my website! I&apos;m a Ph.D. candidate in Economics at the{" "}
-          <a href="https://lsa.umich.edu/econ">University of Michigan</a>.
+          <a href="https://lsa.umich.edu/econ" target="_blank" rel="noopener noreferrer">University of Michigan</a>.
         </p>
         <p className="job-market-notice"><strong>I am on the 2026-2027 job market.</strong></p>
         <p>
@@ -30,8 +30,8 @@ export default function Home() {
         <h2 id="working-papers">Working Papers</h2>
         <article className="publication">
           <h3>Child Support and Labor Supply in a High-Informality Setting</h3>
-          <p><a href="https://www.dropbox.com/scl/fi/uw3zq37832szkgqyddrv6/latest.pdf?rlkey=68100p4gv3djhjdtaw86jbsvv&st=mcfdpbjj&dl=0">[Latest version]</a> <em>Job Market Paper</em></p>
-          <p className="meta">with <a href="https://www.rosariod.com/">Rosario Didier</a></p>
+          <p><a href="https://www.dropbox.com/scl/fi/uw3zq37832szkgqyddrv6/latest.pdf?rlkey=68100p4gv3djhjdtaw86jbsvv&st=mcfdpbjj&dl=0" target="_blank" rel="noopener noreferrer">[Latest version]</a> <em>Job Market Paper</em></p>
+          <p className="meta">with <a href="https://www.rosariod.com/" target="_blank" rel="noopener noreferrer">Rosario Didier</a></p>
           <p className="meta">Presented at: LACEA 2026 (scheduled), NEUDC 2026 (scheduled), MDev 2026 Conference, Workshop on Gender and Household Inequality CAF-WELAC 2025, NTA Annual Conference 2025</p>
           <details className="abstract">
             <summary>Abstract</summary>
@@ -42,8 +42,8 @@ export default function Home() {
         </article>
         <article className="publication">
           <h3>The Effects of Coca Cultivation on Peruvian Local Economic Development</h3>
-          <p><a href="https://www.dropbox.com/scl/fi/moqhjtrkilphv1cv39azo/The-Effects-of-Coca-Cultivation.pdf?rlkey=9folmlihwvr9y388xlmifb0th&st=7wa0kkuc&e=1&dl=0">[Latest version]</a></p>
-          <p className="meta">with <a href="https://jendara.com/">Joaquin Endara Cevallos</a></p>
+          <p><a href="https://www.dropbox.com/scl/fi/moqhjtrkilphv1cv39azo/The-Effects-of-Coca-Cultivation.pdf?rlkey=9folmlihwvr9y388xlmifb0th&st=7wa0kkuc&e=1&dl=0" target="_blank" rel="noopener noreferrer">[Latest version]</a></p>
+          <p className="meta">with <a href="https://jendara.com/" target="_blank" rel="noopener noreferrer">Joaquin Endara Cevallos</a></p>
           <details className="abstract">
             <summary>Abstract</summary>
             <p>
@@ -53,8 +53,8 @@ export default function Home() {
         </article>
         <article className="publication">
           <h3>Ideology and Corruption: Policies and People</h3>
-          <p><a href="https://www.dropbox.com/scl/fi/gcen8mc7shlv95rjkowxz/L-pez-Villalba-Ruzzier_Ideology-and-Corruption_country-analysis.pdf?rlkey=5w8ui6lcjp03w6p4re14lg4tg&st=6keueo2k&dl=0">[Latest version]</a> <em>Submitted</em></p>
-          <p className="meta">with <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a></p>
+          <p><a href="https://www.dropbox.com/scl/fi/gcen8mc7shlv95rjkowxz/L-pez-Villalba-Ruzzier_Ideology-and-Corruption_country-analysis.pdf?rlkey=5w8ui6lcjp03w6p4re14lg4tg&st=6keueo2k&dl=0" target="_blank" rel="noopener noreferrer">[Latest version]</a> <em>Submitted</em></p>
+          <p className="meta">with <a href="https://sites.google.com/site/christianruzzier/home" target="_blank" rel="noopener noreferrer">Christian A. Ruzzier</a></p>
           <p className="meta">Presented at: NICEP 2026 Conference</p>
           <details className="abstract">
             <summary>Abstract</summary>
@@ -68,14 +68,14 @@ export default function Home() {
         <h2 id="publications">Publications</h2>
         <article className="publication">
           <h3>
-            <a href="https://direct.mit.edu/rest/article/104/1/133/97646/The-Long-Term-Effect-of-Military-Conscription-on">
+            <a href="https://direct.mit.edu/rest/article/104/1/133/97646/The-Long-Term-Effect-of-Military-Conscription-on" target="_blank" rel="noopener noreferrer">
               The Long-Term Effect of Military Conscription on Personality and Beliefs
             </a>
           </h3>
           <p className="meta">
-            with <a href="https://sites.google.com/udesa.edu.ar/gabrielaertolanavajas/home">Gabriela Ertola Navajas</a>,{" "}
-            <a href="https://www.antoniavazquez.com">Antonia Vazquez</a> and{" "}
-            <a href="https://sites.google.com/a/udesa.edu.ar/mrossi/">Martín A. Rossi</a>.
+            with <a href="https://sites.google.com/udesa.edu.ar/gabrielaertolanavajas/home" target="_blank" rel="noopener noreferrer">Gabriela Ertola Navajas</a>,{" "}
+            <a href="https://www.antoniavazquez.com" target="_blank" rel="noopener noreferrer">Antonia Vazquez</a> and{" "}
+            <a href="https://sites.google.com/a/udesa.edu.ar/mrossi/" target="_blank" rel="noopener noreferrer">Martín A. Rossi</a>.
           </p>
           <p><strong><em>The Review of Economics and Statistics</em></strong>, 104(1), 2022.</p>
           <details className="abstract">
@@ -87,16 +87,16 @@ export default function Home() {
         </article>
         <article className="publication">
           <h3>
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1090944320300697">
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1090944320300697" target="_blank" rel="noopener noreferrer">
               Firm-level productivity in Latin America and the Caribbean
             </a>
           </h3>
-          <p className="meta">with <a href="https://idbinvest.org/en/blog/author/lucas-figal-garone">Lucas Figal Garone</a>, <a href="https://idbinvest.org/en/member/alessandro-maffioli">Alessandro Maffioli</a> and <a href="https://sites.google.com/site/christianruzzier/home">Christian A. Ruzzier</a>.</p>
+          <p className="meta">with <a href="https://idbinvest.org/en/blog/author/lucas-figal-garone" target="_blank" rel="noopener noreferrer">Lucas Figal Garone</a>, <a href="https://idbinvest.org/en/member/alessandro-maffioli" target="_blank" rel="noopener noreferrer">Alessandro Maffioli</a> and <a href="https://sites.google.com/site/christianruzzier/home" target="_blank" rel="noopener noreferrer">Christian A. Ruzzier</a>.</p>
           <p><strong><em>Research in Economics</em></strong>, 74(2), 2020.</p>
           <details className="abstract">
             <summary>Abstract</summary>
             <p>
-              While the accumulation of factors of production, both physical and <a href="https://www.sciencedirect.com/topics/economics-econometrics-and-finance/human-capital">human capital</a>, has helped Latin America and the Caribbean (LAC) to narrow the income gap with developed economies, aggregate productivity is still relatively low. Although there are numerous determinants of aggregate productivity, it is largely based on the underlying productivity of all firms in the economy. Using firm-level data from several waves of the World Bank Enterprise Survey and Chile&apos;s National Manufacturing Survey, we explore the <em>‘what’</em> question on productivity dispersion in LAC. We document three stylized facts: (i) there are significant differences in firm productivity within <a href="https://www.sciencedirect.com/topics/economics-econometrics-and-finance/industry">industries</a> – the firm at the 90th percentile of the productivity distribution produces almost seven times as much output (using the same measured inputs) as the 10th percentile firm; (ii) productivity differences persist over time – regressing a firm&apos;s current productivity on its one-year lagged productivity yields an autoregressive coefficient of around 0.9; and (iii) most of the growth in aggregate productivity comes from improvements in the productivity of existing firms.
+              While the accumulation of factors of production, both physical and <a href="https://www.sciencedirect.com/topics/economics-econometrics-and-finance/human-capital" target="_blank" rel="noopener noreferrer">human capital</a>, has helped Latin America and the Caribbean (LAC) to narrow the income gap with developed economies, aggregate productivity is still relatively low. Although there are numerous determinants of aggregate productivity, it is largely based on the underlying productivity of all firms in the economy. Using firm-level data from several waves of the World Bank Enterprise Survey and Chile&apos;s National Manufacturing Survey, we explore the <em>‘what’</em> question on productivity dispersion in LAC. We document three stylized facts: (i) there are significant differences in firm productivity within <a href="https://www.sciencedirect.com/topics/economics-econometrics-and-finance/industry" target="_blank" rel="noopener noreferrer">industries</a> – the firm at the 90th percentile of the productivity distribution produces almost seven times as much output (using the same measured inputs) as the 10th percentile firm; (ii) productivity differences persist over time – regressing a firm&apos;s current productivity on its one-year lagged productivity yields an autoregressive coefficient of around 0.9; and (iii) most of the growth in aggregate productivity comes from improvements in the productivity of existing firms.
             </p>
           </details>
         </article>
