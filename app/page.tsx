@@ -21,8 +21,8 @@ export default function Home() {
         </p>
         <p className="job-market-notice"><strong>I am on the 2026-2027 job market.</strong></p>
         <p>
-          My research interests are in Labor Economics, Family Economics, and
-          Development Economics, with a particular interest in how institutions
+          My research interests are in Labor Economics, Development Economics, and
+          Family Economics, with a particular interest in how institutions
           and public policies shape labor-market outcomes and household behavior.
         </p>
       </section>
