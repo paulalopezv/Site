@@ -30,7 +30,7 @@ export default function Home() {
         <h2 id="working-papers">Working Papers</h2>
         <article className="publication">
           <h3>Child Support and Labor Supply in a High-Informality Setting</h3>
-          <p><a href="https://www.dropbox.com/scl/fi/uw3zq37832szkgqyddrv6/latest.pdf?rlkey=68100p4gv3djhjdtaw86jbsvv&st=mcfdpbjj&dl=0" target="_blank" rel="noopener noreferrer">[Latest version]</a> <em>Job Market Paper</em></p>
+          <p><a href="/JMP_LOPEZ.pdf" target="_blank" rel="noopener noreferrer">[Latest version]</a> <em>Job Market Paper</em></p>
           <p className="meta">with <a href="https://www.rosariod.com/" target="_blank" rel="noopener noreferrer">Rosario Didier</a></p>
           <p className="meta">Presented at: LACEA Annual Meeting 2026 (scheduled), NEUDC Conference 2026, NTA Annual Conference 2026 (accepted; unable to attend due to scheduling conflict), MDev 2026 Conference, Workshop on Gender and Household Inequality CAF-WELAC 2025, NTA Annual Conference 2025.</p>
           <details className="abstract">
